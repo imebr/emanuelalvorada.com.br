@@ -1,0 +1,58 @@
+/* Colors & Fonts - Presets */
+:root {
+  /* Global */
+  --ime-P757WrB: #eeeeee;
+  /* SDE */
+
+  /* Err */
+  --err-u48Pw6W: #1A1A1A;
+  --err-628Zmcw: #242424;
+  --err-fX731Sh: #242020;
+  --err-34B2VQv: #575658;
+  --err-3166Net: #939393;
+  --err-2sW2GZ0: #BABABA;
+  --err-3N93kTr: #DEDEDE;
+  --err-kO52u05: #EFEDF2;
+  --err-2516fPz: #0E49A1;
+
+  --err-qE6042s: 400 .85rem "JetBrains Mono", "Source Code Pro";
+
+  /* Font */
+  --font-corpo: 400 1rem "Inter", "JetBrains Mono", "Source Code Pro";
+}
+
+/* Footer - Err */
+
+.ime .err ._footer {
+  background-color: var(--err-fX731Sh);
+  color: var(--err-3166Net);
+  font: var(--err-qE6042s);
+
+  padding: .8rem 3.12rem;
+
+  user-select: none;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  
+  width: 100%;
+}
+
+.ime .err ._footer section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ime .err ._footer a {
+  color: var(--err-3166Net);
+  text-decoration: none;
+}
+
+.ime .err ._footer a:hover {
+  color: var(--err-3N93kTr);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+
+  transition: all .5s;
+}
